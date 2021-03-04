@@ -1,12 +1,10 @@
-# Conda environment with environment.yml
-
-[![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/)
+# Binder environment with environment.yml
 
 A Binder-compatible repo with an `environment.yml` file.
 
 Access this Binder by clicking the blue badge above or at the following URL:
 
-http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
+https://mybinder.org/v2/gh/bdfd/4.0_ML-Jupyter-Notebook-Template.git/master?filepath=index.ipynb
 
 ## Notes
 
