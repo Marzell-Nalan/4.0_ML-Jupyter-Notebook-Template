@@ -4,10 +4,12 @@ channels:
 dependencies:
   - numpy
   - pandas
-  - psutil
-  - toolz
   - matplotlib
-  - dill
-  - partd
-  - bokeh
-  - dask
+  - scikit-learn
+  - wget
+  # - psutil
+  # - toolz
+  # - dill
+  # - partd
+  # - bokeh
+  # - dask
