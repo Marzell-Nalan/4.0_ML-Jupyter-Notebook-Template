@@ -1,30 +1,15 @@
-# Binder environment with environment.yml
+# pangeo-binder-template
 
-A Binder-compatible repo with an `environment.yml` file.
+template repository for pangeo binder configuration
 
-Access this Binder by clicking the blue badge above or at the following URL:
+### How to use
 
-https://mybinder.org/v2/gh/bdfd/4.0_ML-Jupyter-Notebook-Template.git/master?filepath=index.ipynb
+1. Click the 'Use this Template Button'
+2. Change files in binder/ folder to customize your Jupyter environment
+3. Add new notebooks
+4. Change the button URLs below to point to your repo (pangeo-data/pangeo-binder-template --> githubuser/repo)
+5. Share links with colleagues!
 
-## Notes
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=bdfd+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/bdfd/4.0_ML-Jupyter-Notebook-Template/master?urlpath=lab)
 
-The `environment.yml` file should list all Python libraries on which your notebooks
-depend, specified as though they were created using the following `conda` commands:
-
-```
-conda activate example-environment
-conda env export --from-history -f environment.yml
-```
-
-Note that the only libraries available to you will be the ones specified in
-the `environment.yml`, so be sure to include everything that you need!
-
-Also note that if you skip the `--from-history`, conda may include OS-specific
-packages in `environment.yml`, which you would have to manually prune from
-`environment.yml`. For example, confirmed macOS-specific packages that should
-be removed are:
-
-- libcxxabi=4.0.1
-- appnope=0.1.0
-- libgfortran=3.0.1
-- libcxx=4.0.1
+[![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=bdfd+Binder&message=AWS+us-west-2&color=orange)](https://aws-uswest2-binder.pangeo.io/v2/gh/bdfd/4.0_ML-Jupyter-Notebook-Template/master?urlpath=lab)
